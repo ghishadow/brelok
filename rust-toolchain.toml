@@ -1,0 +1,6 @@
+[toolchain]
+build = "x86_64-unknown-linux-musl"
+channel = "stable"
+targets = ["x86_64-unknown-linux-musl","aarch64-unknown-linux-musl", "wasm32-unknown-unknown", "wasm32-wasi"]
+profile = "minimal"
+components = ["rustfmt", "rust-src", "clippy"]

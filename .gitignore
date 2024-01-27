@@ -1,3 +1,8 @@
 .direnv
 /target
 .env
+
+# Devenv
+.devenv*
+devenv.local.nix
+

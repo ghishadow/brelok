@@ -10,7 +10,8 @@ edition = "2021"
 ssh2 = "0.9.3"
 owo-colors = "3.3.0"
 clap = { version = "3.1.10", features = ["derive", "cargo", "env", "unicode"] }
-log = "0.4.16"
+clap_complete = "3.1.3"
 miette = { version = "4.5.0", features = ["fancy", "owo-colors", "supports-color", "supports-hyperlinks", "textwrap"] }
-nix = "0.23.1"
-anyhow = "1.0.56"
+env_logger = "0.9.0"
+nix = "0.24.1"
+anyhow = "1.0.57"
